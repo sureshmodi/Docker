@@ -6,4 +6,4 @@ rm -rf /opt/tomcat/webapps/docs && \
 rm -rf /opt/tomcat/webapps/ROOT && \
 rm -rf /opt/tomcat/webapps/host-manager && \
 rm -rf /opt/tomcat/webapps/manager
-COPY BloggingApp.war /usr/local/tomcat/webapps/ROOT.war
+COPY BloggingApp.war /usr/local/tomcat/webapps/
